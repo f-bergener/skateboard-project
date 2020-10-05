@@ -1,0 +1,67 @@
+#checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .checkout-header {
+    font-size: 18px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .checkout-header {
+    font-size: 15px;
+  }
+}
+
+#checkout-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-input-label {
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .checkout-input-label {
+    font-size: 12px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  .checkout-input-label {
+    font-size: 9px;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .checkout-input {
+    font-size: 12px;
+  }
+}
+
+/*Galaxy Fold*/
+@media (max-width: 280px) {
+  .checkout-input {
+    font-size: 9px;
+  }
+}
+
+.checkout-input::-webkit-inner-spin-button,
+.checkout-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

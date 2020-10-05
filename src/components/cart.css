@@ -1,0 +1,105 @@
+#cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4% 0 5% 0;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .cart-text {
+    font-size: 18px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .cart-text {
+    font-size: 15px;
+  }
+}
+
+#cart-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 120%;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .cart-item-detail {
+    font-size: 15px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .cart-item-detail {
+    font-size: 12px;
+  }
+}
+
+.cart-item-button {
+  cursor: pointer;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .cart-item-button {
+    font-size: 10px;
+    width: 10%;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .cart-item-button {
+    font-size: 9px;
+    width: 10%;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .cart-totals {
+    font-size: 16px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .cart-totals {
+    font-size: 12px;
+  }
+}
+
+#checkout-button {
+  cursor: pointer;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  #checkout-button {
+    font-size: 10px;
+    width: 20%;
+    cursor: pointer;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  #checkout-button {
+    font-size: 9px;
+    width: 18%;
+    cursor: pointer;
+  }
+}

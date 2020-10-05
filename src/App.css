@@ -1,0 +1,162 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 12.5% 0 2.5%;
+}
+
+.top-header {
+  cursor: pointer;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .top-header {
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .top-header {
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+
+body {
+  margin: 0 0 0 0;
+}
+
+#homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+#homepage-image {
+  width: 100%;
+}
+
+#description {
+  font-weight: 200;
+  font-style: italic;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  #description {
+    font-size: 10px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  #description {
+    font-size: 8px;
+  }
+}
+
+#deck-header {
+  margin-bottom: 2%;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  #deck-header {
+    font-size: 18px;
+    margin-bottom: 2%;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  #deck-header {
+    font-size: 15px;
+    margin-bottom: 2%;
+  }
+}
+
+#deck-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+}
+
+/*Ipad Pro*/
+@media (max-width: 1024px) {
+  #deck-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .deck {
+    font-size: 10px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .deck {
+    font-size: 8px;
+  }
+}
+
+.deck-image {
+  width: 90%;
+  height: 90%;
+  margin-top: 2%;
+}
+
+.price {
+  margin-bottom: 2%;
+}
+
+#row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+
+.deck {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 15%;
+  height: 48%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: white;
+}
+
+.deck:hover {
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: black;
+}
+
+#row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}

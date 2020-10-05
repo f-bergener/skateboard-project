@@ -1,0 +1,131 @@
+.product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 4% 25% 5% 25%;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 4% 20% 5% 20%;
+  }
+}
+
+.product-image {
+  width: 8%;
+  height: 8%;
+  margin-right: 15%;
+  transition: transform 0.5s;
+}
+
+@media (max-width: 1024px) {
+  .product-image {
+    width: 12%;
+    height: 12%;
+    margin-right: 15%;
+    transition: transform 0.5s;
+  }
+}
+
+.product-image:hover {
+  transform: scale(1.4);
+}
+
+.description-container {
+  width: 50%;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .description-container {
+    width: 88%;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .product-header {
+    font-size: 18px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .product-header {
+    font-size: 15px;
+  }
+}
+
+.description {
+  color: gray;
+  font-style: italic;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .description {
+    font-size: 10px;
+    color: gray;
+    font-style: italic;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .description {
+    font-size: 8px;
+    color: gray;
+    font-style: italic;
+  }
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .price {
+    font-size: 10px;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .price {
+    font-size: 8px;
+  }
+}
+
+.deck-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.cart-button {
+  cursor: pointer;
+}
+
+/*Cell Phone*/
+@media (max-width: 425px) {
+  .cart-button {
+    font-size: 8px;
+    width: 50%;
+    cursor: pointer;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .cart-button {
+    font-size: 6.2px;
+    width: 52%;
+    cursor: pointer;
+  }
+}
