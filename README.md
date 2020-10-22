@@ -1,3 +1,4 @@
+## Skateboard Project
 Website for a fictional online skateboard shop that was built with HTML, CSS, Javascript· The website allows the user to order skateboards online
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
